@@ -1,65 +1,87 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dmc-logo-beyaz.png">
-    <img src="assets/dmc-logo.png" alt="DMC Bilgi Teknolojileri" width="260">
-  </picture>
-</p>
+<a href="https://www.dmcteknoloji.com/"><img src="assets/banner.png" alt="DMC Bilgi Teknolojileri: veritabanı yönetimi ve danışmanlık" width="100%"></a>
 
 <p align="center">
-  <a href="https://www.dmcteknoloji.com/">dmcteknoloji.com</a> ·
-  <a href="https://sentineldb360.com/">sentineldb360.com</a> ·
-  <a href="https://www.dmcteknoloji.com/blog/">Blog</a> ·
-  <a href="https://www.linkedin.com/company/dmcteknoloji">LinkedIn</a> ·
-  <a href="https://www.dmcteknoloji.com/iletisim/">İletişim</a>
+  <a href="https://www.dmcteknoloji.com/"><img src="https://img.shields.io/badge/dmcteknoloji.com-12263f?style=for-the-badge" alt="dmcteknoloji.com"></a>
+  <a href="https://sentineldb360.com/"><img src="https://img.shields.io/badge/SentinelDB360-0077b6?style=for-the-badge" alt="SentinelDB360"></a>
+  <a href="https://www.linkedin.com/company/dmcteknoloji"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.dmcteknoloji.com/iletisim/"><img src="https://img.shields.io/badge/İletişim-00aeef?style=for-the-badge" alt="İletişim"></a>
 </p>
 
-## DMC Bilgi Teknolojileri
+İstanbul'da kurulu, işi veritabanı olan bir şirketiz. Müşterilerimizin SQL Server, PostgreSQL, MySQL/MariaDB ve MongoDB sunucularını gece gündüz izliyor, yavaşlayan sorguyu buluyor, Always On kuruyor, veriyi buluta taşıyoruz. Kurucumuz [Çağlar Özenç](https://caglarozenc.com/) ([LinkedIn](https://www.linkedin.com/in/caglarozenc)) altı kez Microsoft Data Platform MVP seçildi. Merkez ofisimiz Eyüpsultan'da, Ar-Ge ofisimiz Düzce Teknopark'ta.
 
-İstanbul'da, veritabanı üzerine çalışan bir yönetilen hizmet ve danışmanlık şirketiyiz. SQL Server, PostgreSQL, MySQL/MariaDB ve MongoDB ortamlarını işletiyor, performans sorunlarını çözüyor, Always On ve cluster mimarisi kuruyor, bulut geçişi yapıyoruz. Kurucumuz Çağlar Özenç altı kez Microsoft Data Platform MVP unvanı aldı. Merkezimiz Eyüpsultan'da, Ar-Ge ofisimiz Düzce Teknopark'ta.
+Aşağıdaki depolar bu işin açık kaynak kısmı.
 
-Burada gördüğünüz depolar bu işin açık kısmı: teşhis script'leri, demo uygulamalar ve kitapların kodu.
+## Açık kaynak
 
-### Açık kaynak
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Depo | Ne işe yarar |
+**[dmc-dba-toolkit](https://github.com/dmcteknoloji/dmc-dba-toolkit)**<br>
+Dört motor için 81 teşhis script'i. Varsayılan olarak salt okunur. Her değişiklikte CI, script'lerin hepsini gerçek bir SQL Server, PostgreSQL, MySQL ve MongoDB'ye karşı çalıştırıyor.
+
+</td>
+<td width="50%" valign="top">
+
+**[mssql-health-mcp](https://github.com/dmcteknoloji/mssql-health-mcp)**<br>
+SQL Server'ın sağlık bilgisini yapay zeka istemcilerine salt okunur açan MCP sunucusu. Windows kurulumu için [dmc-sql-saglik](https://github.com/dmcteknoloji/dmc-sql-saglik).
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[dmcshop-sql2025](https://github.com/dmcteknoloji/dmcshop-sql2025)**<br>
+SQL Server 2025'in graph ve vektör (DiskANN) özelliklerini bir demo mağaza üzerinde gösteren Blazor uygulaması. [Canlı demo](https://demo.dmcteknoloji.com).
+
+</td>
+<td width="50%" valign="top">
+
+**[doris-superset-lab](https://github.com/dmcteknoloji/doris-superset-lab)**<br>
+Apache Doris, PostgreSQL ve SQL Server'a aynı 20 milyon satır yükleniyor, altı rapor sorgusu ölçülüyor, üstünde Superset var. Amaç kendi donanımınızda kendi sayınızı almanız.
+
+</td>
+</tr>
+</table>
+
+## Kitaplar
+
+| Kitap | İçerik |
 |---|---|
-| [dmc-dba-toolkit](https://github.com/dmcteknoloji/dmc-dba-toolkit) | SQL Server, PostgreSQL, MySQL ve MongoDB için 81 teşhis script'i. Varsayılan olarak salt okunur, CI'da gerçek motorlara karşı çalıştırılıyor. |
-| [mssql-health-mcp](https://github.com/dmcteknoloji/mssql-health-mcp) | SQL Server sağlık bilgisini yapay zeka istemcilerine salt okunur açan MCP sunucusu. |
-| [dmc-sql-saglik](https://github.com/dmcteknoloji/dmc-sql-saglik) | Bu MCP sunucusunu herhangi bir yapay zeka istemcisine bağlayan Windows kurulum paketi. |
-| [dmcshop-sql2025](https://github.com/dmcteknoloji/dmcshop-sql2025) | SQL Server 2025 graph ve vektör (DiskANN) özelliklerini Blazor ile gösteren demo mağaza. Canlısı [demo.dmcteknoloji.com](https://demo.dmcteknoloji.com) adresinde. |
-| [doris-superset-lab](https://github.com/dmcteknoloji/doris-superset-lab) | Apache Doris, PostgreSQL ve SQL Server'ı aynı 20 milyon satırla karşılaştıran Docker laboratuvarı. |
+| **[SQL Server 2025 başucu kitabı](https://github.com/dmcteknoloji/sql-server-2025-kitap)** | Türkçe. Kod örnekleri, errata ve okur [tartışmaları](https://github.com/dmcteknoloji/sql-server-2025-kitap/discussions). |
+| **[SQL Server 2025 geliştirici kitabı](https://github.com/dmcteknoloji/sql-server-2025-gelistirici-kitabi)** | Yazılımcılar için, Türkçe ve İngilizce. |
+| **[Yapay Zeka Ne Zaman Yanılır?](https://github.com/dmcteknoloji/yapay-zeka-ne-zaman-yanilir)** <sub>yayına hazırlanıyor</sub> | Kitaptaki 29 ölçümün ham verisi ve betikleri. Her ölçümün cetveli, ölçüm yapılmadan önce yazıldı. |
 
-### Kitaplar
+## Blogdan son yazılar
 
-- [SQL Server 2025 başucu kitabı](https://github.com/dmcteknoloji/sql-server-2025-kitap): Türkçe. Kod örnekleri, errata ve okur tartışmaları bu depoda.
-- [SQL Server 2025 geliştirici kitabı](https://github.com/dmcteknoloji/sql-server-2025-gelistirici-kitabi): Türkçe ve İngilizce, yazılımcılar için.
-- [Yapay Zeka Ne Zaman Yanılır?](https://github.com/dmcteknoloji/yapay-zeka-ne-zaman-yanilir): kitaptaki 29 ölçümün ham verisi ve betikleri. Cetveller ölçümden önce yazıldı.
+<!-- BLOG-BASLA -->
+- [Yapay zeka dönüşümü: kurum nereden başlar](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-donusumu-nereden-baslanir/) <sub>19.09.2026</sub>
+- [Yapay zeka dönüşümünde kim ne yapar](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-donusumunde-kim-ne-yapar/) <sub>17.09.2026</sub>
+- [SQL Server 2022 CU27: 2019'dan yükseltmeyi kilitleyen hata ve ADR kapalıyken bozulma](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/guncellemeler-ve-guvenlik/sql-server-2022-cu27-yayinlandi/) <sub>16.09.2026</sub>
+- [SQL Server 2025 CU9 yayınlandı: 44 düzeltme, build 17.0.5005.3](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/guncellemeler-ve-guvenlik/sql-server-2025-cu9-yayinlandi/) <sub>16.09.2026</sub>
+- [Yapay zeka yönetişimi: takvim işlemeye başladı](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-yonetisimi-takvim-isliyor/) <sub>15.09.2026</sub>
+<!-- BLOG-BITIR -->
 
-### Ürünler
+[Tüm yazılar →](https://www.dmcteknoloji.com/blog/)
 
-**SentinelDB360** veritabanlarının sağlık ve güvenlik durumunu ölçen yazılım ailemiz. Ücretsiz [Lite](https://github.com/dmcteknoloji/sentineldb360-lite) sürümünü bu hesaptan indirebilirsiniz. Platform ve Security sürümleri için [sentineldb360.com](https://sentineldb360.com/).
+## Ne yapıyoruz
 
-### Katkı ve iletişim
+- **[Yönetilen veritabanı hizmetleri](https://www.dmcteknoloji.com/hizmetlerimiz/yonetilen-veritabani-hizmetleri/):** 7/24 izleme, yedek ve kurtarma, yama, kapasite planlama.
+- **[Yüksek erişilebilirlik ve performans](https://www.dmcteknoloji.com/hizmetlerimiz/yuksek-erisilebilirlik-ve-performans/):** Always On, cluster, replikasyon, sorgu ve indeks optimizasyonu.
+- **[Bulut ve hibrit](https://www.dmcteknoloji.com/hizmetlerimiz/bulut-ve-hibrit-cozumler/):** Azure, AWS, Google Cloud ve Huawei Cloud geçişleri.
+- **[SentinelDB360](https://sentineldb360.com/):** veritabanı sağlık ve güvenlik değerlendirme yazılımımız. Ücretsiz Lite sürümü [burada](https://github.com/dmcteknoloji/sentineldb360-lite/releases/latest).
 
-Bir script'te hata bulursanız ilgili depoya issue açın. SQL Server 2025 başucu kitabıyla ilgili soru ve öneriler için deponun [Tartışmalar](https://github.com/dmcteknoloji/sql-server-2025-kitap/discussions) sekmesi açık. İş görüşmesi için [iletişim formu](https://www.dmcteknoloji.com/iletisim/) ya da 0212 945 61 66.
-
----
+Script'lerde hata görürseniz ilgili depoya issue açın. İş için [iletişim formu](https://www.dmcteknoloji.com/iletisim/) ya da 0212 945 61 66.
 
 <details>
 <summary><b>English</b></summary>
 
 <br>
 
-DMC Bilgi Teknolojileri is an Istanbul-based managed services and consulting company focused on databases. We run SQL Server, PostgreSQL, MySQL/MariaDB and MongoDB estates, fix performance problems, design Always On and cluster setups, and handle cloud migrations. Our founder Çağlar Özenç has been a Microsoft Data Platform MVP six times.
+DMC Bilgi Teknolojileri is a database company based in Istanbul. We monitor SQL Server, PostgreSQL, MySQL/MariaDB and MongoDB estates around the clock, track down slow queries, build Always On clusters and move data to the cloud. Our founder [Çağlar Özenç](https://caglarozenc.com/) is a six-time Microsoft Data Platform MVP.
 
-The repositories here are the open part of that work:
+The repositories below are the open source part of that work. [dmc-dba-toolkit](https://github.com/dmcteknoloji/dmc-dba-toolkit) has 81 read-only diagnostic scripts for four engines, and CI runs every one of them against real servers. [mssql-health-mcp](https://github.com/dmcteknoloji/mssql-health-mcp) gives AI clients read-only access to SQL Server health data. [dmcshop-sql2025](https://github.com/dmcteknoloji/dmcshop-sql2025) is a demo store built on SQL Server 2025 graph and vector search, and [doris-superset-lab](https://github.com/dmcteknoloji/doris-superset-lab) loads the same 20 million rows into Doris, PostgreSQL and SQL Server so you can measure them on your own hardware. The [SQL Server 2025 developer book](https://github.com/dmcteknoloji/sql-server-2025-gelistirici-kitabi) is bilingual.
 
-- **[dmc-dba-toolkit](https://github.com/dmcteknoloji/dmc-dba-toolkit):** 81 diagnostic scripts for four engines, read-only by default and tested in CI against real servers.
-- **[mssql-health-mcp](https://github.com/dmcteknoloji/mssql-health-mcp)** and **[dmc-sql-saglik](https://github.com/dmcteknoloji/dmc-sql-saglik):** a read-only SQL Server health MCP server and its Windows installer.
-- **[dmcshop-sql2025](https://github.com/dmcteknoloji/dmcshop-sql2025):** a SQL Server 2025 graph and vector demo store.
-- **[doris-superset-lab](https://github.com/dmcteknoloji/doris-superset-lab):** Doris, PostgreSQL and SQL Server on the same 20 million rows.
-- **[SQL Server 2025 developer book](https://github.com/dmcteknoloji/sql-server-2025-gelistirici-kitabi):** bilingual, Turkish and English.
-
-Our product family is **[SentinelDB360](https://sentineldb360.com/en/)**. Found a bug? Open an issue in the repository. Anything else: [dmcteknoloji.com](https://www.dmcteknoloji.com/).
+Our product family is [SentinelDB360](https://sentineldb360.com/en/). Anything else: [dmcteknoloji.com](https://www.dmcteknoloji.com/).
 
 </details>
