@@ -55,11 +55,11 @@ Apache Doris, PostgreSQL ve SQL Server'a aynı 20 milyon satır yükleniyor, alt
 ## Blogdan son yazılar
 
 <!-- BLOG-BASLA -->
+- [MySQL 8.0 desteği Nisan 2026'da bitti, 8.4 LTS'e geçişte nelere dikkat edilmeli](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/mysql-8-0-destek-sonu-8-4-gecis/) <sub>22.10.2026</sub>
+- [PostgreSQL 14 desteği 12 Kasım 2026'da bitiyor, hangi sürüme ve nasıl geçilir](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/postgresql-14-destek-sonu/) <sub>22.10.2026</sub>
+- [Redgate araçları SQL Server ekibine ne katar, ne zaman gerekmez](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/redgate-araclari-sql-server-ekibine-ne-katar/) <sub>22.10.2026</sub>
 - [Yapay zeka dönüşümü: kurum nereden başlar](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-donusumu-nereden-baslanir/) <sub>19.09.2026</sub>
 - [Yapay zeka dönüşümünde kim ne yapar](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-donusumunde-kim-ne-yapar/) <sub>17.09.2026</sub>
-- [SQL Server 2022 CU27: 2019'dan yükseltmeyi kilitleyen hata ve ADR kapalıyken bozulma](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/guncellemeler-ve-guvenlik/sql-server-2022-cu27-yayinlandi/) <sub>16.09.2026</sub>
-- [SQL Server 2025 CU9 yayınlandı: 44 düzeltme, build 17.0.5005.3](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/guncellemeler-ve-guvenlik/sql-server-2025-cu9-yayinlandi/) <sub>16.09.2026</sub>
-- [Yapay zeka yönetişimi: takvim işlemeye başladı](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-yonetisimi-takvim-isliyor/) <sub>15.09.2026</sub>
 <!-- BLOG-BITIR -->
 
 [Tüm yazılar →](https://www.dmcteknoloji.com/blog/)
