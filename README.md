@@ -55,11 +55,11 @@ Apache Doris, PostgreSQL ve SQL Server'a aynı 20 milyon satır yükleniyor, alt
 ## Blogdan son yazılar
 
 <!-- BLOG-BASLA -->
+- [SQL Server 2025 CU10 yayınlandı: MSDASQL sorunu bilinen sorunlardan çıktı, build 17.0.5035.5](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/guncellemeler-ve-guvenlik/sql-server-2025-cu10-yayinlandi/) <sub>25.10.2026</sub>
 - [MySQL 8.0 desteği Nisan 2026'da bitti, 8.4 LTS'e geçişte nelere dikkat edilmeli](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/mysql-8-0-destek-sonu-8-4-gecis/) <sub>22.10.2026</sub>
 - [PostgreSQL 14 desteği 12 Kasım 2026'da bitiyor, hangi sürüme ve nasıl geçilir](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/postgresql-14-destek-sonu/) <sub>22.10.2026</sub>
 - [Redgate araçları SQL Server ekibine ne katar, ne zaman gerekmez](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/redgate-araclari-sql-server-ekibine-ne-katar/) <sub>22.10.2026</sub>
 - [Yapay zeka dönüşümü: kurum nereden başlar](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-donusumu-nereden-baslanir/) <sub>19.09.2026</sub>
-- [Yapay zeka dönüşümünde kim ne yapar](https://www.dmcteknoloji.com/veri-platformlari/yapay-zeka-donusumunde-kim-ne-yapar/) <sub>17.09.2026</sub>
 <!-- BLOG-BITIR -->
 
 [Tüm yazılar →](https://www.dmcteknoloji.com/blog/)
