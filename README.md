@@ -55,11 +55,11 @@ Apache Doris, PostgreSQL ve SQL Server'a aynı 20 milyon satır yükleniyor, alt
 ## Blogdan son yazılar
 
 <!-- BLOG-BASLA -->
+- [MySQL performans sorunlarında ilk bakılacak beş yer](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/mysql-performans-ilk-bakilacak-bes-yer/) <sub>11.11.2026</sub>
 - [PostgreSQL destek nasıl alınır, kimden alınır ve neye göre seçilir](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/postgresql-destek-nasil-alinir/) <sub>10.11.2026</sub>
 - [SQL Server 2025 CU10 yayınlandı: MSDASQL sorunu bilinen sorunlardan çıktı, build 17.0.5035.5](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/guncellemeler-ve-guvenlik/sql-server-2025-cu10-yayinlandi/) <sub>25.10.2026</sub>
 - [MySQL 8.0 desteği Nisan 2026'da bitti, 8.4 LTS'e geçişte nelere dikkat edilmeli](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/mysql-8-0-destek-sonu-8-4-gecis/) <sub>22.10.2026</sub>
 - [PostgreSQL 14 desteği 12 Kasım 2026'da bitiyor, hangi sürüme ve nasıl geçilir](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/postgresql-14-destek-sonu/) <sub>22.10.2026</sub>
-- [Redgate araçları SQL Server ekibine ne katar, ne zaman gerekmez](https://www.dmcteknoloji.com/yonetilen-veritabani-hizmetleri/sql-server/redgate-araclari-sql-server-ekibine-ne-katar/) <sub>22.10.2026</sub>
 <!-- BLOG-BITIR -->
 
 [Tüm yazılar →](https://www.dmcteknoloji.com/blog/)
